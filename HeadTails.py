@@ -1,6 +1,8 @@
 import random
 
 def main():
+    name = input("Who are you? ")
+    print ("Hello",name)
     i=1
     heads=0
     tails = 0
