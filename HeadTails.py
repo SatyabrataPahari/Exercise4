@@ -15,6 +15,11 @@ def main():
     print ("Heads:",heads,", Tails:",tails)
 
 
+    if heads>tails: print("You win")
+    else: print("You lost")
+
+
+
 def head_tail():
     return random.choice(["Heads", "Tails"])
 
