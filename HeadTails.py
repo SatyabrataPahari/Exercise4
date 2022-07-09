@@ -1,6 +1,8 @@
 import random
 
 def main():
+    name = input("Who are you? ")
+    print ("Hello",name)
     i=1
     heads=0
     tails = 0
@@ -11,8 +13,11 @@ def main():
         else: tails+=1
         i+=1
     print ("Heads:",heads,", Tails:",tails)
+
+
     if heads>tails: print("You win")
     else: print("You lost")
+
 
 
 def head_tail():
