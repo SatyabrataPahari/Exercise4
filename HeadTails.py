@@ -14,8 +14,8 @@ def main():
         i+=1
     print ("Heads:",heads,", Tails:",tails)
 
-    if heads>tails: print("You win")
-    else: print("You lost")
+    if heads>tails: print(name,"won!")
+    else: print(name,"lost")
 
 
 
